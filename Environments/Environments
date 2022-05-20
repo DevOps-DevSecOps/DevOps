@@ -28,6 +28,15 @@ Once the UI Developer, Backend Developer, DevOps and Database Administration che
 
 [Demo]
 Demo servers are not as common as the other servers, but in certain situations, there may be a request from a client to set up a demo server.
-
+When complete final work and the client approves it, it may be deployed to a demo server.
+The use of this server is primarily for showcasing the product to key stakeholders and potential or existing customers.
+A sales and marketing team will usually use this server to promote the product and allow prospects and leads to interact with the product.
 
 [Production]
+Production servers are the final location for all finished and approved work.
+When you deploy code to a production server, this means everyone has approved it to go live.
+Work should never be done on a production server without the use of some type of version control as this will be a high risk for things breaking while the product is in use.
+In certain situations, when a product goes offline or a production server goes down, it can cost a company a lot of money and this is definitely not something anyone wants to occur.
+
+# Links:- https://www.gratasoftware.com/what-is-each-server-for-development-test-uat-or-staging-demo-and-production/
+          https://itsec.rs/2019/04/what-is-each-server-for-dev-test-uat-staging-demo-and-production/
