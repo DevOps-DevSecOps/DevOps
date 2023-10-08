@@ -1,16 +1,31 @@
 [Development]
-When work starts most developers and programmers will have Development Environments set up for the work. This is where they can build and verify the work they are doing.
+When work starts most developers and programmers will have Development Environments set up for the work. 
+It is where changes to software code are made.
+This is where they can build and verify the work they are doing.
 Developers and programmers use the development server to test code directly.
 This server is usually set up with the needed hardware, software and other necessary parts for debugging and deploying.
 
 [Testing]
+So developers can identify and fix errors that may affect the application’s workflow and user experience.
+It is where the testing teams analyze the quality of the application/program.
+It is used to ensure the quality and functionality of the application, identify open bugs and review bug fixes.
+It allows software developers to check how a code/program will behave in a live environment.
 Once the developers or programmers complete the work they will deploy that finished work to a test server.
 A test servers set up and configurations will be for internal use by the team with necessary configurations.
 The internal team completes the testing phase, usually with the use of a QA Tester.
 The tester will run various use cases to ensure that the product is functioning as it should.
 If the tester discovers bugs or other issues, they will create tasks for the developers or programmers to fix.
-
-[User Acceptance Testing (UAT)]
+There are different types of Testing Environments are listed below
+● Performance Testing Environment
+It allows developers to measure how fast an application responds to an interaction.
+Various aspects of an application, such as page load speeds, input processing, stability, reliability and so on.
+● System Integration Testing (SIT)
+It is to check if all modules, such as code modules, individual applications, and client and server applications, can communicate with each other as per their dependencies. 
+It also ensures shared databases work as expected. 
+● User Acceptance Testing (UAT)
+It is conducted to check if the application meets the business requirements of the end users.
+This is the final stage of testing.
+If the features and functionalities of the application satisfy the end user, the application is moved to the production environment. 
 When work passes through the internal testing phase and is ready for approvals, the team deploys it to a UAT server.
 Once in the server the work will get final client approvals before flipping the switch.
 The fundamental difference between a UAT and Test server is that UAT is configured to run as a production build.
@@ -19,20 +34,27 @@ By doing this, a client will be able to access the product on this server.
 Along with being able to use it and see a real-time view of what the product will look like.
 The client will be able to check that the features they requested are working according to their original thoughts.
 If the client does not like their original thought on a feature in UAT, they determine whether they want to launch as-is or change the way something is working.
+● Quality Assurance (QA)
+It ensures that the application developed is of the highest quality possible for end users/clients.
+The computer programmers test the new software against the previous version to verify that the new product meets the specified parameters. 
+● Security Testing
+It performed by specialized testers to examine how secure the software/application is from malicious programs, viruses, threat actors, etc.
+Testers also validate the authorization and authentication features of the program in this environment. 
 
-[Staging]
+[Staging/Stage/Pre-production/Demo]
 Staging is for pre-deployment.
 A staging server’s set up is like production with all production configurations and the team uses it to perform smoke testing.
 This ensures the code and everything works in a production configuration and architecture.
 Once the UI Developer, Backend Developer, DevOps and Database Administration check everything and its an all-go from each, they push the code to production.
-
-[Demo]
+● Demo
 Demo servers are not as common as the other servers, but in certain situations, there may be a request from a client to set up a demo server.
 When complete final work and the client approves it, it may be deployed to a demo server.
 The use of this server is primarily for showcasing the product to key stakeholders and potential or existing customers.
 A sales and marketing team will usually use this server to promote the product and allow prospects and leads to interact with the product.
 
 [Production]
+It is also known as the live environment, is where end users can use the application.
+Even though the product in this server works properly and has passed all the tests, developers can still conduct tests in production and add new features in this final step.
 Production servers are the final location for all finished and approved work.
 When you deploy code to a production server, this means everyone has approved it to go live.
 Work should never be done on a production server without the use of some type of version control as this will be a high risk for things breaking while the product is in use.
